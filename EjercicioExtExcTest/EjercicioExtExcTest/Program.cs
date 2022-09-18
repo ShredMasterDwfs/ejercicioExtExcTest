@@ -10,9 +10,9 @@ namespace EjercicioExtExcTest
     {
         static void Main(string[] args)
         {
-            string option;
-            ShowUI();
-            option = Console.ReadLine();
+                string option;
+                ShowUI();
+                option = Console.ReadLine();
 
                 switch (option)
                 {
@@ -110,6 +110,7 @@ namespace EjercicioExtExcTest
                         Console.WriteLine("Seleccione una opción válida.");
                         break;
                 }
+
                 Console.ReadKey();
 
         }
@@ -135,6 +136,21 @@ namespace EjercicioExtExcTest
             Console.WriteLine("║ -4 EXCEPCIÓN PERSONALIZADA.     ║");
             Console.WriteLine("║                                 ║");
             Console.WriteLine("╚═════════════════════════════════╝");
+        }
+
+        public class tOperation
+        {
+            public int MathPower(int number, int power)
+            {
+                int result;
+                result = 1;
+
+                for (int i = 0; i < power; i++)
+                {
+                    result *= number;
+                }
+                return result;
+            }
         }
     }
 }

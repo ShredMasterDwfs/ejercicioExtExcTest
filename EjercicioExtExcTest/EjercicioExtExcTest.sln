@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioExtExcTest", "EjercicioExtExcTest\EjercicioExtExcTest.csproj", "{BFBE4305-3319-42A7-8423-D2C85EF7FC4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioExtExcTestTests", "EjercicioExtExcTestTests\EjercicioExtExcTestTests.csproj", "{9C59055E-9621-453B-8595-70CAF436251D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BFBE4305-3319-42A7-8423-D2C85EF7FC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFBE4305-3319-42A7-8423-D2C85EF7FC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFBE4305-3319-42A7-8423-D2C85EF7FC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C59055E-9621-453B-8595-70CAF436251D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C59055E-9621-453B-8595-70CAF436251D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C59055E-9621-453B-8595-70CAF436251D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C59055E-9621-453B-8595-70CAF436251D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
