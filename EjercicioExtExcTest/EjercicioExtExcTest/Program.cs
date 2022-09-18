@@ -87,7 +87,7 @@ namespace EjercicioExtExcTest
                             string errorMsg;
                             Console.Write("Mensaje: ");
                             errorMsg = Console.ReadLine();
-                            throw new NumberOfCharactersException($"Mensaje ingresado por el usuario: {errorMsg}");
+                            throw new NumberOfCharactersException($"Mensaje de error ingresado por el usuario: {errorMsg}");
                         }
 
                         Logic.ThrowSpecialException();
@@ -107,7 +107,7 @@ namespace EjercicioExtExcTest
                     break;
 
                 default:
-                        Console.WriteLine("Seleccione una opción válida.");
+                        Console.WriteLine("Opción válida.");
                         break;
                 }
 
@@ -138,7 +138,7 @@ namespace EjercicioExtExcTest
             Console.WriteLine("╚═════════════════════════════════╝");
         }
 
-        public class tOperation
+        public class TOperation
         {
             public int MathPower(int number, int power)
             {

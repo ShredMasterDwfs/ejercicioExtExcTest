@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace EjercicioExtExcTest.Program.Tests
 {
     [TestClass()]
-    public class tOperationTests
+    public class TOperationTests
     {
         [TestMethod()]
         public void MathPowerTest()

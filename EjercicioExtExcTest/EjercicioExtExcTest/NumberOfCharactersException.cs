@@ -9,7 +9,7 @@ namespace EjercicioExtExcTest
     public class NumberOfCharactersException:Exception
     {
 
-        public NumberOfCharactersException(string word) : base(word)
+        public NumberOfCharactersException(string message) : base(message + " : Error Controlado y editado.")
         {
             
         }

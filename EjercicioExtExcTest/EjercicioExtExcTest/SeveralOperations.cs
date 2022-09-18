@@ -13,7 +13,7 @@ namespace EjercicioExtExcTest
             return number / 0;
         }
 
-        public static float DivideTwoNumbers(int firstNumber, int secondNumber)
+        public static decimal DivideTwoNumbers(decimal firstNumber, decimal secondNumber)
         {
             return firstNumber / secondNumber;
         }
