@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeveralOperations.cs" />
+    <Compile Include="NumberOfCharactersException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
