@@ -78,21 +78,23 @@ namespace EjercicioExtExcTest
                 case "4":
                     try
                     {
-                        string word;
-                        Console.WriteLine("Ingrese una palabra de 3 letras:");
-                        word = Console.ReadLine();
+                        Console.WriteLine("Desea ingresar un mensaje para la excepción? s/n");
+                        string sn;
+                        sn = Console.ReadLine();
 
-                        if (word.Length < 3 || word.Length > 3)
+                        if (sn == "s")
                         {
-                            throw new NumberOfCharactersException("Cantidad de caracteres incorrecto.");
+                            string errorMsg;
+                            Console.Write("Mensaje: ");
+                            errorMsg = Console.ReadLine();
+                            throw new NumberOfCharactersException($"Mensaje ingresado por el usuario: {errorMsg}");
                         }
 
-                        Console.WriteLine("Correcto!");
-
+                        Logic.ThrowSpecialException();
                     }
                     catch (NumberOfCharactersException NCex)
                     {
-                        Console.WriteLine($"Mensaje de la excepción: {NCex.Message}");
+                        Console.WriteLine($"{NCex.Message}\nTipo de excepción: {NCex.GetType()}");
                     }
                     catch (Exception ex)
                     {

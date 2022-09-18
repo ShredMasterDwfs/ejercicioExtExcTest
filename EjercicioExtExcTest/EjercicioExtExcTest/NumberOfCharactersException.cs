@@ -8,12 +8,13 @@ namespace EjercicioExtExcTest
 {
     public class NumberOfCharactersException:Exception
     {
+
         public NumberOfCharactersException(string word) : base(word)
         {
-               
+            
         }
 
-        public NumberOfCharactersException() : base("La cantidad de caracteres es incorrecta.")
+        public NumberOfCharactersException() : base("Excepción personalizada: La cantidad de caracteres es incorrecta.")
         {
 
         }

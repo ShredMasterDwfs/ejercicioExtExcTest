@@ -15,7 +15,8 @@ namespace EjercicioExtExcTest
 
         public static void ThrowSpecialException()
         {
-
+            throw new NumberOfCharactersException();
         }
+        
     }
 }
