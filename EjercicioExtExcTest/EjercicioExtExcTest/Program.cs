@@ -107,7 +107,7 @@ namespace EjercicioExtExcTest
                     break;
 
                 default:
-                        Console.WriteLine("Opción válida.");
+                        Console.WriteLine("Opción inválida.");
                         break;
                 }
 
